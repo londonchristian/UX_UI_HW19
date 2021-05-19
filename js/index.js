@@ -24,3 +24,13 @@ console.log("Your index.js file is loaded correctly!");
               $(this).css("background-color", "#46464681");
             });
     });
+    $(document).ready(function(){
+        $("button").click(function(){
+          $("button").slideDown("slow");
+        });
+      });
+      $(document).ready(function(){
+        $("p").click(function(){
+          alert("The paragraph was clicked.");
+        });
+      });
