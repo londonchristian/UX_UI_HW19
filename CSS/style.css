@@ -63,6 +63,7 @@ footer li{
     padding: 0px 50px;
     color: #FFFFFF;
     vertical-align: middle;
+    max-width:max-content;
 }
 .bottomNav{
     font-size: 28px;
